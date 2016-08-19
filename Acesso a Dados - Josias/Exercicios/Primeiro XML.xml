@@ -1,0 +1,83 @@
+<?xml version="1.0" enconding="UTF-8"?>
+<tcc>
+	<capa>
+		<instituicao>UNIPE</instituicao>
+		<alunos>
+			<al id="1">Edmarcos Lins</al>
+			<al id="2">João Augusto</al>
+			<al id="3">Antonio Bezerra</al>
+		</alunos>
+		<titulo>ACESSO A DADOS</titulo>
+		<rodape>
+			<local>JOÃO PESSOA PB</local>
+			<data>09/08/2016</data>
+		</rodape>
+	</capa>
+	<contracapa>
+		<alunos>
+			<al id="1">Edmarcos Lins</al>
+			<al id="2">João Augusto</al>
+			<al id="3">Antonio Bezerra</al>
+		</alunos>
+		<titulo>ACESSO A DADOS</titulo>
+		<descricao>TRABALHO SOLICITADO PELO PROFESSOR JOÃO AZEVEDO</descricao>
+		<rodape>
+			<local>JOÃO PESSOA PB</local>
+			<data>09/08/2016</data>
+		</rodape>
+	</contracapa>
+	<dedicatoria>DEDICO ESTE TRABALHO A MEU ORIENTADOR</dedicatoria>
+	<agradecimentos>
+		<ag id ="1">GRANDE ARQUITETO DO UNIVERSO</ag>
+		<ag id ="2">FUNDADORA DO FIES DILMA ROUSEFF</ag>
+		<ag id ="3">ORIENTADOR RICARDO MACEDO</ag>
+	</agradecimentos>
+	<epigrafe>
+		<descricao>"ACESSE OS DADOS, SÓ ASSIM ELES SERÃO ACESSADOS"</descricao>
+		<autor>JOSIAS DA UNIPE</autor>
+	</epigrafe>
+	<resumo>
+		<titulo>RESUMO</titulo>
+		<descricao>ESTE TRABALHO FOI FEITO LEVANDO EM CONSIDERAÇÃO OS DADOS QUE NÃO SÃO ACESSADOS E TEM COMO OBJETIVO ACESSAR OS DADOS QUE NÃO SÃO ACESSADOS.</descricao>
+		<keyworks>PALAVRAS CHAVE: ACESSO, DADOS.</keyworks>
+	</resumo>
+	<indice>
+		<titulo>SUMÁRIO</titulo>
+		<introducao>INTRODUÇÃO</introducao>
+		<capitulo pg="15">
+			<titulo>Objetivos</titulo>
+			<subtitulo pgin="18" pgend="28">Objetivo Geral</subtitulo>
+			<subtitulo pgin="29" pgend="37">Objetivo Geral</subtitulo>
+		</capitulo>
+		<capitulo pg="38">
+			<titulo>Processos de Descoberta</titulo>
+			<subtitulo pgin="42" pgend="55">Descoberta do Conhecimento</subtitulo>
+			<subtitulo pgin="56" pgend="89">Descoberta Tecnologica</subtitulo>
+		</capitulo>
+		<conclusao pg="101">Conclusão</conclusao>
+		<refbibli pg="109">REFERÊNCIAS BIBLIOGRÁFICAS</refbibli>
+		<anexos pg="112">ANEXOS</anexos>
+	</indice>
+	<introducao>
+		<titulo>1 - INTRODUÇÃO</titulo>
+		<descricao>Os dados são dificeis de acessar pela maioria das más empresas, e são de suma importância para levantamento de informações...</descricao>
+	</introducao>
+	<capitulo id="1">
+		<titulo>1 - CAPITULO ACESSANDO COM SOFTWARE</titulo>
+		<texto>O software deve ser fácil de utilizar...</texto>
+		<subtitulo id ="1">
+			<titulo>1.1 - LINGUAGEM</titulo>
+			<texto>O software pode ser feito em qualquer tipo de linguagem...</texto>
+		</subtitulo>
+	</capitulo>
+	<conclusao>
+		<titulo>CONCLUSÃO</titulo>
+		<descricao>AQUI SE ENCERRA O CONCLUSÃO DO TCC</descricao>
+	</conclusao>
+	<referencias>
+		<titulo>REFERÊNCIAS BIBLIOGRÁFICAS</titulo>
+		<ref id ="1">JOAO AZEVEDO DE LIMA, LIVRO TEORIA DOS DADOS</ref>
+		<ref id ="2">MARCOS ANTONIO, ARTIGO ACESSO DINÂMICO</ref>
+		<ref id ="3">JOSIAS DA UNIPE, LIVRO ACESSANDO DADOS COM XML</ref>
+	</referencias>
+</tcc>
