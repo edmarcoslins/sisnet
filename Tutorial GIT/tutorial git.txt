@@ -1,0 +1,40 @@
+﻿## GERAR CHAVE SSH
+ssh-keygen -t rsa -b 4096 -C "seu_email@dominio.com"
+
+## MENSAGEM A SER EXIBIDA, PRESSIONE ENTER
+// Enter file in which to save the key (/Users/you/.ssh/id_rsa): 
+
+## MENSAGEM A SER EXIBIDA, DIGITAR SENHA OU NÃO
+//Enter passphrase (empty for no passphrase):  
+//Enter same passphrase again:  
+
+## MENSAGEM DE CONFIRMAÇÃO
+Your identification has been saved in /Users/you/.ssh/id_rsa.  
+# Your public key has been saved in /Users/you/.ssh/id_rsa.pub.
+# The key fingerprint is:
+# 01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db seuemail@dominio.com
+
+## ADICIONANDO CHAVE SSH
+ssh-agent -s 
+ssh-add ~/.ssh/id_rsa
+
+## COPIANDO A CHAVE
+clip < ~/.ssh/id_rsa.pub
+
+## IR AO REPOSITÓRIO NO SITE, CONFIGURAÇÕES E ADICIONAR NOVA SSH
+
+## INDICANDO O REPOSITÓRIO
+git remote add origin git@github.com:edmarcoslins/sisnet.git
+
+## VER STATUS DOS ARQUIVOS
+git status
+
+## ADICIONANDO E COMMITANDO
+git add (. ou o nome do arquivo)
+git commit -m "mensagem de identificação"
+
+## PUSH
+git push -u origin master
+
+## PULL
+git pull origin master

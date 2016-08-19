@@ -1,0 +1,30 @@
+Fiz os comando de push(upar) e pull(baixar).
+Tu conseguiu entender?
+
+entendi o ruim é decorar os comandos me passa tuas anotações
+Espera ai.
+Eu achei até que tinha commitado já, mas não fiz isso. Perae que vou ver se tenho aqui.
+Mas tranquilo, nao tenho, mas lembro das que preciso.
+
+
+git add (adiciona o arquivo, vc poder colocar "." para add tudo, ou pode especificar)
+ ex: "git add teste.html" ou "git add ."
+ 
+git status (vc verifica quais os arquivos que não estão adicionados nem commitados naquela pasta) obs: sempre é bom verificar.
+
+git commit -m "Alguma mensagem para lhe ajudar a idenficar a alteração"
+ ex: git commit -m "Editei o método de inserção da pilha"
+ 
+git push -u origin master (joga tudo que tá add e commitado para o git)
+
+git pull (puxa as alterações que estão feitas no git mas nao estão feitas no seu pasta local, acho que se chama workstate)
+
+Pronto, o que vc vai precisar mais é só isso mesmo.
+
+Aí tem uns comandos básicos que decorei, tipo: touch teste.html (vc cria um arquivo), ls (listar), cd (acessar pastar). Essas viadagem do Linux.
+mkdir cria pasta, salvo engano.
+
+Pronto, só sei esses comandos mesmo.
+valew
+
+Vê só. tava 
